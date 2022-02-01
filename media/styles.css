@@ -1,0 +1,277 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+  
+* {
+    font-family: 'El Messiri', sans-serif;
+    font-size: 18px;
+    margin: 0;
+}
+
+h3 {
+    font-size: 23px;
+}
+
+h2 {
+    font-size: 26px;
+}
+
+@media only screen and (min-width: 360px) and (max-width: 768px) {
+    * {
+        font-size: 18px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    h2 {
+        font-size: 23px;
+    }
+}
+
+/* Header */
+
+    .nav-bar {
+        width: 100%;
+        height: auto;
+        background-color: #0C2118;
+        display: flex;
+        padding: 15px;
+        align-items: center;
+        justify-content: start;
+        opacity: 0.9;
+    }
+
+    .nav-bar a {
+        color: #EBD50C;
+        text-decoration: none;
+    }
+
+    .nav-bar {
+        display: flex;
+    }
+
+    .nav-bar .company_name {
+        width: 50%;
+        display: inline-flex;
+        justify-content: start;
+    }
+
+    .nav-bar .company_nav {
+        width: 50%;
+        display: inline-flex;
+        justify-content: end;
+    }
+
+    .nav-bar .company_nav a {
+        padding-left: 20px;
+    }
+
+/* Main */
+
+    .banner {
+        width: 100%;
+        height: 880px;
+        background-image: url('./img/background_img.jpg');
+        background-size: cover;
+        background-position: bottom;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #264035;
+    }
+
+    .main-info {
+        text-align: center;
+    }
+
+    .main-info h1 {
+        font-weight: bold;
+        font-size: 50px;
+    }
+
+    .main-info button {
+        margin-top: 50px;
+        padding: 20px;
+        background-color: #EBD50C;
+        border: #EBD50C;
+        border-radius: 50px;
+        font-weight: bold;
+    }
+
+    .main-info button:hover {
+        background-color: red;
+    }
+
+/* Benefits */
+
+    .benefits {
+        max-width: 1210px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .benefits h2 {
+        text-align: center;
+        color: #264035;
+    }
+
+    .benefits-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .benefits-container h3 {
+        padding-bottom: 10px;
+    }
+
+    .box-bef {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+        margin: 20px;
+        flex-grow: 1;
+    }
+
+    .confidentiality,
+    .approach,
+    .efficiency {
+        width: 350px;
+        height: auto;
+    }
+
+/* Services */
+
+    .services {
+        max-width: 1210px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    .services h2 {
+        text-align: center;
+        color: #264035;
+    }
+
+    .services-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .box-serv {
+        width: 350px;
+        height: 350px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px;
+    }
+
+    .box-serv p {
+        background-color: #264035;
+        color: #EBD50C;
+        padding: 20px;
+        border-radius: 50px;
+        font-weight: bold;
+    }
+
+    .bankruptcy {
+        background-image: url('./img/bankruptcy1.jpg');
+        background-size: cover;
+        background-position: bottom;
+        background-repeat: no-repeat;
+        flex-grow: 1;
+    }
+
+    .dispute {
+        background-image: url('./img/dispute.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        flex-grow: 1;
+    }
+
+    .business {
+        background-image: url('./img/business.jpg');
+        background-size: cover;
+        background-position: bottom;
+        background-repeat: no-repeat;
+        flex-grow: 1;
+    }
+
+    .IP {
+        background-image: url('./img/IP.jpg');
+        background-size: cover;
+        background-position: bottom;
+        background-repeat: no-repeat;
+        flex-grow: 1;
+    }
+
+    .sports {
+        background-image: url('./img/sport.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        flex-grow: 1;
+    }
+
+    .criminal {
+        background-image: url('./img/criminal.jpg');
+        background-size: cover;
+        background-position: left;
+        background-repeat: no-repeat;
+        flex-grow: 1;
+    }
+
+/* About */
+
+    .team-container h2 {
+        text-align: center;
+        color: #264035;
+    }
+
+    .team {
+        background-image: url('./img/4.jpg');
+        background-position: bottom;
+        padding-top: 70px;
+        padding-top: 5px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .teammate {
+        
+        padding: 20px;
+        color: #EBD50C;
+        flex-basis: 280px;
+    }
+    
+    .teammate img {
+        margin-left: auto;
+        margin-right: auto;
+        width: 350px;
+        height: auto;
+    }
+
+    .andrii, .anna {
+        background-color: black;
+    }
+
+/* Footer */
+  
+    .footer {
+        background-color: #0C2118;
+        text-align: center;
+        color: #EBD50C;
+        padding: 20px;
+    }
